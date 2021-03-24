@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Not a 80's CV</title>
+    
+</head>
+<body class="dog"> 
+   
+     <!-- Nav tabs -->
+     <ul class="nav nav-tabs" id="navId">
+         <li class="nav-item">
+            <a href="#tab5Id" class="nav-link active">SKILLS</a>
+        </li>
+        <li class="nav-item">
+            <a href="#tab5Id" class="nav-link active">CONTACTS</a>
+        </li>
+         <li class="nav-item">
+             <a href="https://github.com/felipeinnit" target="_blank" class="nav-link active">GIT HUB</a>
+         </li>
+         <li class="nav-item">
+             <a href="#https://twitter.com/felipeinnit" target="_blank" class="nav-link active">TWITTER</a>
+         </li>
+     </ul>
+     
+     <!-- Tab panes -->
+     <div class="tab-content">
+         <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
+         <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
+         <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
+         <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
+         <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+     </div>
+     
+     <script>
+         $('#navId a').click(e => {
+             e.preventDefault();
+             $(this).tab('show');
+         });
+     </script>
+     <div class="row">
+        <div class="col-lg-6">
+           <img class="profile" src="/img/profile.gif" alt="felipe profile picture">
+        </div>
+                    <div class="col-lg-6">
+                    <h1>Felipe Ribeiro *** Best Second Son</h1>
+                    <p><em>Best <strong>second</strong> Nuth's son</em></p>
+                    <p>I am learning front end web development for now, and my long term goal is to became a ios developer</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse commodi rem similique dignissimos! Sed, modi voluptatibus ex eveniet suscipit placeat. Eveniet ipsum recusandae voluptates autem, minima cupiditate. Nisi ullam facilis sunt accusamus doloribus iste vero quam consectetur nesciunt, est molestiae? </p>
+        </div>
+        </div>
+    <hr>
+    <h3>Education</h3>
+        <ul class="education-list">
+            <li>Degree in Graphic Design and Multimedia</li>
+            <li>Secondary School of Visual arts</li>
+            <li>FireBrand BootCamp</li>
+            <li>First Aider</li>
+        </ul>
+    <hr>
+    <h3>Work Experience</h3>
+     <!-- thead and tbody helps later on-->
+        <table class="table-position" cellspacing="10">
+            <thead>
+                <tr>
+                    <th>Dates</th>
+                    <th>Work</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>2018 - 2019</th>
+                    <th>Lorem, ipsum.</th>
+                </tr>
+                <tr>
+                    <th>2014 - 2016</th>
+                    <th>Lorem, ipsum dolor.</th>
+                </tr>
+            </tbody>
+        </table>
+    <hr>
+
+     <h3>Skills</h3>  
+      <div class="progress">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">HTML</div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">CSS</div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">C#</div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JS</div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">SQL</div>
+      </div>
+
+      <div class="card text-dark bg-light mb-3">
+          <div class="row flashing">
+            <div class="col-lg-6">
+        <div class="card-header">Dilema ONE</div>
+        <div class="card-body">
+          <h5 class="card-title">Milk or ice cream ?</h5>
+          <p class="card-text">If you do know the answer, hire me and we can sort this out!</p>
+        </div></div>
+
+        <div class="col-lg-6">
+        <div class="card-header">Dilema TWO</div>
+        <div class="card-body">
+          <h5 class="card-title">Duck or umbrella ?</h5>
+          <p class="card-text">If you do know the answer, hire me and we can sort this out!</p>
+        </div></div>
+      </div>
+    </div>
+
+    <a href="hobbies.html">Hobbies</a>
+    <a id="contact" href="contact.html">Contact Me</a>
+</body>
+<script src="/index.js"></script>
+</html>
