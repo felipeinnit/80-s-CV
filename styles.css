@@ -1,0 +1,111 @@
+body {
+  text-align: justify;
+  margin: 5%;
+}
+
+p {
+  margin: 5% 5% 0%;
+}
+ul {
+  align-items: center;
+}
+th {
+  padding-left: 5%;
+}
+
+.dog {
+  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAMAAAD63NUrAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAFZJREFUeNqdzksKwDAIAFHH+x+6lIYOVPOhs5OHJnES/5UkYKEkU7xjijSIm50iFh4fAXgYDd/yumVVRSwsqq/nRA3xVK0oo06d5U6DpQZ7PV7lMxH7LkaQAbYFwryzAAAAAElFTkSuQmCC),
+    auto;
+}
+
+.profile {
+  padding-top: 3%;
+  filter: opacity(50%);
+  width: 55vh;
+}
+
+@media (max-width: 959px) {
+  .profile {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .nav-item {
+    align-items: center;
+    font-size: 12px;
+  }
+}
+
+/* Header */
+.header-title {
+  text-align: center;
+}
+
+.education-list {
+  padding-left: 5%;
+}
+.align-tables {
+}
+.table-position {
+  padding-left: 5%;
+  /* text-align: justify; */
+}
+.progress {
+  padding-left: 0;
+}
+
+.card {
+  margin: 5%;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.card-title {
+  color: black;
+}
+.flashing {
+  padding: 5%;
+}
+
+.visit-counter {
+  text-align: center;
+  padding: 2%;
+}
+
+/* accordion */
+
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-style: none;
+  text-align: center;
+  outline: white;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  padding-bottom: 5%;
+  display: none;
+  overflow: hidden;
+}
+
+.progrees-padding {
+  padding-top: 5%;
+}
+
+.About-text {
+  padding-bottom: 5%;
+}
+
+.botton-tag {
+  text-align: center;
+}
